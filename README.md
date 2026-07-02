@@ -493,12 +493,3 @@ BRAM Result Buffer → AXI4 Read → Magnitude Buffer → LED Bitmap → MAX7219
 최종적으로 Basys3 보드와 4개의 MAX7219 LED Matrix를 연결하여 32x8 LED Matrix 출력 동작을 하드웨어에서 검증했습니다.
 
 ---
-
-## 17. 향후 개선 방향
-
-- LED Matrix refresh rate 최적화
-- magnitude scaling 방식 개선
-- bin별 peak hold 기능 추가
-- AXI burst read 적용을 통한 result buffer read 효율 개선
-- timing constraint 및 resource utilization 분석 보완
-- RGB LED Matrix 기반 다중 색상 Equalizer 확장
